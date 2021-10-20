@@ -1,0 +1,11 @@
+*{ margin: 0; padding: 0;}
+body{margin: 0 0 50px 0;}
+.kind{ width: 100%;}
+.kind .name{ padding: 20px 0 10px; font-size: 24px; color: #000000; font-weight: bold; text-align: center;}
+.kind .cell{ padding: 10px 0; text-align: center;}
+.kind .cell a{ font-size: 20px; color: #000; text-decoration: none;}
+.kind .cell a:hover{ color: #f00;}
+@media screen and (max-width: 768px){
+.kind .name{ font-size: 22px;}
+.kind .cell a{ font-size: 18px;}
+}
